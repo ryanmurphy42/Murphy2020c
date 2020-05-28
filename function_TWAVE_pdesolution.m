@@ -4,8 +4,8 @@ function function_TWAVE_pdesolution(simulation_id,L,timestop,time_record_vector_
 
 %Discretisations and Newton-Raphson parameters
 
-dz=0.00001; %for accuracy
-%dz=0.0001; %for speed, solution is also accurate
+dz=0.00001; %for improved accuracy
+%dz=0.0001; %for speed, solution has good accuracy for parameters considered
 nodesz=round(1/dz) +1;
 dt=1e-2; %timestep
 
