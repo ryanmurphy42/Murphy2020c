@@ -11,8 +11,8 @@ L_final_time = L_hist(end);
 %calculate p
 
 %dz from ctm discretisation
-dz=0.00001; %for accuracy
-%dz=0.0001; %for speed, solution is also accurate
+dz=0.00001; %for improved accuracy
+%dz=0.0001; %for speed, solution has good accuracy for parameters considered
 nodesz=round(1/dz) +1;
 
 
